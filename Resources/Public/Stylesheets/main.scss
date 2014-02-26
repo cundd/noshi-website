@@ -79,6 +79,8 @@ footer {
 	}
 }
 
+
+
 pre {
 	font-size:   0.9em;
 	line-height: 1.5em;
@@ -86,4 +88,9 @@ pre {
 	background:  $gray-lighter;
 	box-shadow:  0px 0px 2px rgba($gray, 0.8);
 	overflow-y:  scroll;
+	margin-bottom: $paragraph-margin-bottom;
+}
+
+p + pre {
+	margin-top: -$paragraph-margin-bottom;
 }
