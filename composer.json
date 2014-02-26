@@ -1,0 +1,14 @@
+{
+    "name": "cundd/noshi-website",
+    "description": "Theme for the NoShi website",
+    "require": {
+        "cundd/noshi": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Corn",
+            "email": "info@cundd.net"
+        }
+    ]
+}
