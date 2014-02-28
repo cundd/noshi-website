@@ -94,6 +94,7 @@ $out-margin: 30px;
 		margin-bottom: 2.1rem;
 		margin-left: -($out-margin / 2);
 		margin-right: -($out-margin / 2);
+		padding-bottom: 1.5rem;
 	}
 
 	h2 {
@@ -112,10 +113,16 @@ $out-margin: 30px;
 		list-style: none;
 		margin-left: 0;
 	}
+
+	$indent: 8px;
+	$indentSpace: 7px;
 	li {
+		margin-left: ($indentSpace + $indent);
 		&:before {
 			content: "-";
-			margin-right: 7px;
+			margin-right: $indent;
+			margin-left: -($indentSpace + $indent);
+			position: absolute;
 		}
 	}
 }
@@ -160,7 +167,9 @@ pre {
 
 	code {
 		color: $gray;
-		font-size: 0.8rem;
+		// font-size: 0.8rem;
+		font-size: 18px;
+
 
 //		border-bottom: $gray-border;
 	}
