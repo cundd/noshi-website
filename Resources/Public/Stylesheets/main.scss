@@ -186,3 +186,21 @@ p code {
 p + pre {
 	margin-top: -($paragraph-margin-bottom / 2);
 }
+
+
+
+.top-bar-section {
+	// Level 1
+	> ul > li {
+		position: relative;
+
+		// Level 2
+		> ul {
+			display: none;
+			position: absolute;
+		}
+		&:hover > ul {
+			display: inherit;
+		}
+	}
+}

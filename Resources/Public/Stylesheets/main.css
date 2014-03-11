@@ -1714,4 +1714,12 @@ pre {
 p + pre {
   margin-top: -0.625rem; }
 
+.top-bar-section > ul > li {
+  position: relative; }
+  .top-bar-section > ul > li > ul {
+    display: none;
+    position: absolute; }
+  .top-bar-section > ul > li:hover > ul {
+    display: inherit; }
+
 /*# sourceMappingURL=main.css.map */
