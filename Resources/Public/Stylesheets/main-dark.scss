@@ -14,9 +14,14 @@ $warning-color: #f08a24;
 $info-color: #a0d3e8;
 
 //$body-bg: darken(#fff, 3%);
+$body-bg: #222;
+$body-font-color: darken(white, 20%);
 $body-font-family: open-sans-condensed, sans-serif;
 $base-font-size: 120%;
 $base-line-height: 1.7;
+
+$header-font-color: darken($body-font-color, 20%);
+
 
 $paragraph-font-family: open-sans, $body-font-family;
 
@@ -32,10 +37,9 @@ $row-width: 640px;
 $h1-font-size: rem-calc(64);
 
 $red-border: 1px solid $primary-color;
-$gray-border: 1px solid $gray-lighter;
+$gray-border: 1px solid $gray;
 
 $out-margin: 30px;
-
 
 
 
@@ -166,7 +170,7 @@ pre {
 
 
 	code {
-		color: $gray;
+		color: $gray-light;
 		// font-size: 0.8rem;
 		font-size: 18px;
 

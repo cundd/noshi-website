@@ -36,8 +36,8 @@ html, body {
   font-size: 120%; }
 
 body {
-  background: #333;
-  color: #a2a2a2;
+  background: #222;
+  color: #cccccc;
   padding: 0;
   margin: 0;
   font-family: open-sans-condensed, sans-serif;
@@ -1236,14 +1236,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: open-sans-condensed, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #a2a2a2;
+  color: #999999;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #c2c2c2;
+    color: #bdbdbd;
     line-height: 0; }
 
 h1 {
@@ -1266,7 +1266,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #c2c2c2;
+  color: #bdbdbd;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -1294,7 +1294,7 @@ small {
 code {
   font-family: anonymous-pro, serif;
   font-weight: normal;
-  color: #555; }
+  color: #a2a2a2; }
 
 /* Lists */
 ul, ol, dl {
@@ -1349,7 +1349,7 @@ dl dd {
 abbr, acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #a2a2a2;
+  color: #cccccc;
   border-bottom: 1px dotted #ddd;
   cursor: help; }
 
@@ -1364,15 +1364,15 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #b7b7b7; }
+    color: #b0b0b0; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a, blockquote cite a:visited {
-      color: #b7b7b7; }
+      color: #b0b0b0; }
 
 blockquote, blockquote p {
   line-height: 1.6;
-  color: #c2c2c2; }
+  color: #bdbdbd; }
 
 /* Microformats */
 .vcard {
@@ -1671,7 +1671,7 @@ th.hide-for-touch {
     margin-right: -15px;
     padding-bottom: 1.5rem; }
   .content h2 {
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #555;
     margin: 2.1rem -15px 1.5rem;
     padding: 1.8rem 15px 0; }
   .content ul, .content li {
@@ -1703,11 +1703,11 @@ code {
 pre {
   line-height: 1.5em;
   padding: 0.9375rem;
-  border: 1px solid #eeeeee;
+  border: 1px solid #555;
   overflow-y: scroll;
   margin-bottom: 1.25rem; }
   pre code {
-    color: #555;
+    color: #a2a2a2;
     font-size: 18px; }
 
 
