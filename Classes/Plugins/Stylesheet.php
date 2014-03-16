@@ -8,6 +8,7 @@
 
 namespace Cundd\NoshiWebsite\Plugins;
 
+use Cundd\Noshi\ConfigurationManager;
 use Cundd\Noshi\Ui\AbstractUi;
 
 class Stylesheet extends AbstractUi {
@@ -17,7 +18,8 @@ class Stylesheet extends AbstractUi {
 	 * @return string
 	 */
 	public function render() {
-		return '<link rel="stylesheet" href="{resourcePath}/Stylesheets/main.css" />';
+		$resourcePath = ConfigurationManager::getConfiguration()->getResourceDirectoryUri();
+		return "<link rel=\"stylesheet\" href=\"$resourcePath/Stylesheets/main.css\" />";
 	}
 
 }
