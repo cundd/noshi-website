@@ -13,5 +13,10 @@
             "name": "Daniel Corn",
             "email": "info@cundd.net"
         }
-    ]
+    ],
+	"autoload": {
+		"psr-4": {
+			"Cundd\\NoshiWebsite\\": "Classes/"
+		}
+	}
 }
