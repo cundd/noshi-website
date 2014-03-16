@@ -11,6 +11,11 @@ namespace Cundd\NoshiWebsite\Plugins;
 use Cundd\Noshi\ConfigurationManager;
 use Cundd\Noshi\Ui\AbstractUi;
 
+/**
+ * A very simple plugin to insert a "night" stylesheet
+ *
+ * @package Cundd\NoshiWebsite\Plugins
+ */
 class Stylesheet extends AbstractUi {
 	/**
 	 * Render the UI element
@@ -19,7 +24,8 @@ class Stylesheet extends AbstractUi {
 	 */
 	public function render() {
 		$resourcePath = ConfigurationManager::getConfiguration()->getResourceDirectoryUri();
-		return "<link rel=\"stylesheet\" href=\"$resourcePath/Stylesheets/main.css\" />";
+		$fileSuffix = (intval(@date('H')) > 18) ? '-dark' : '';
+		return "<link rel=\"stylesheet\" href=\"$resourcePath/Stylesheets/main$fileSuffix.css\" />";
 	}
 
 }
