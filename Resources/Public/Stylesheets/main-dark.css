@@ -1707,19 +1707,30 @@ pre {
   overflow-y: scroll;
   margin-bottom: 1.25rem; }
   pre code {
-    color: #a2a2a2;
+    color: #555;
     font-size: 18px; }
 
 
 p + pre {
   margin-top: -0.625rem; }
 
-.top-bar-section > ul > li {
-  position: relative; }
-  .top-bar-section > ul > li > ul {
-    display: none;
-    position: absolute; }
-  .top-bar-section > ul > li:hover > ul {
-    display: inherit; }
+.top-bar-section {
+  z-index: 10; }
+  .top-bar-section > ul > li {
+    position: relative; }
+    @media only screen and (max-width: 40em) {
+      .top-bar-section > ul > li > ul a:before {
+        content: "";
+        width: 10%;
+        display: inline-block; } }
+    @media only screen and (min-width:40.063em) {
+      .top-bar-section > ul > li > ul {
+        display: none;
+        position: absolute; }
+      .top-bar-section > ul > li:hover > ul {
+        display: inherit; } }
+
+pre code {
+  color: #a2a2a2; }
 
 /*# sourceMappingURL=main-dark.css.map */
