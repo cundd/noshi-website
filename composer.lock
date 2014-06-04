@@ -11,24 +11,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cundd/noshi.git",
-                "reference": "f66973be7748a218361d813462a5401daa182b2c"
+                "reference": "a4553b3508f673533483719d72c6467af1b5f374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cundd/noshi/zipball/f66973be7748a218361d813462a5401daa182b2c",
-                "reference": "f66973be7748a218361d813462a5401daa182b2c",
+                "url": "https://api.github.com/repos/cundd/noshi/zipball/a4553b3508f673533483719d72c6467af1b5f374",
+                "reference": "a4553b3508f673533483719d72c6467af1b5f374",
                 "shasum": ""
             },
             "require": {
                 "erusev/parsedown": "dev-master"
             },
+            "bin": [
+                "bin/noshi",
+                "bin/noshi-server"
+            ],
             "type": "library",
             "autoload": {
                 "psr-0": {
                     "Cundd\\Noshi\\": "Classes/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -39,7 +42,11 @@
                 }
             ],
             "description": "The no shi* CMS",
-            "time": "2014-03-18 20:54:35"
+            "support": {
+                "source": "https://github.com/cundd/noshi/tree/master",
+                "issues": "https://github.com/cundd/noshi/issues"
+            },
+            "time": "2014-04-18 09:37:48"
         },
         {
             "name": "erusev/parsedown",
@@ -47,12 +54,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "7ef45894a7264ba5946d34caa61e7f0d83ed9dc0"
+                "reference": "60819541858f9da6fcb77e8bd09693635553d3ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/7ef45894a7264ba5946d34caa61e7f0d83ed9dc0",
-                "reference": "7ef45894a7264ba5946d34caa61e7f0d83ed9dc0",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/60819541858f9da6fcb77e8bd09693635553d3ef",
+                "reference": "60819541858f9da6fcb77e8bd09693635553d3ef",
                 "shasum": ""
             },
             "type": "library",
@@ -78,7 +85,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2014-02-28 12:05:10"
+            "time": "2014-04-17 21:19:22"
         }
     ],
     "packages-dev": [

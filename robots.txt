@@ -1,0 +1,4 @@
+User-Agent: * 
+Allow: / # Allow bot to enter 
+Disallow /Folder/Item/
+Disallow /About/

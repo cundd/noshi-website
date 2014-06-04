@@ -25,6 +25,10 @@ RewriteEngine On
 #RewriteBase /
 
 
+RewriteCond %{HTTP_REFERER} semalt\.com [NC] 
+RewriteRule .* - [F] 
+
+
 # If the file/symlink/directory does not exist => Redirect to index.php.
 # For httpd.conf, you need to prefix each '%{REQUEST_FILENAME}' with '%{DOCUMENT_ROOT}'.
 RewriteCond %{REQUEST_FILENAME} !-f
