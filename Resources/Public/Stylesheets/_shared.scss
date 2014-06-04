@@ -143,6 +143,7 @@ p code {
 	//	color: $gray-light;
 	//	font-family: $body-font-family;
 	//	font-family: $paragraph-font-family;
+	word-wrap: break-word;
 }
 
 p + pre {
@@ -180,4 +181,35 @@ p + pre {
 	}
 }
 
+table {
+	max-width:       100%;
+	display:         block;
+	overflow-x:      auto;
+	border:          $gray-border;
+	border-collapse: collapse;
+
+	font-family: $paragraph-font-family;
+	font-size: $paragraph-font-size;
+
+	tr {
+		th, td {
+			padding: 5px;
+		}
+
+		th {
+			font-family: $header-font-family;
+			font-weight: normal;
+		}
+
+		td {
+//			font-size: $small-font-size;
+			font-size: 0.9rem;
+		}
+//		&:nth-child(odd) {
+//		}
+		//		&:nth-child(even) {
+		//			background: $gray-lighter;
+		//		}
+	}
+}
 

@@ -1710,6 +1710,8 @@ pre {
     color: #555;
     font-size: 18px; }
 
+p code {
+  word-wrap: break-word; }
 
 p + pre {
   margin-top: -0.625rem; }
@@ -1729,6 +1731,22 @@ p + pre {
         position: absolute; }
       .top-bar-section > ul > li:hover > ul {
         display: inherit; } }
+
+table {
+  max-width: 100%;
+  display: block;
+  overflow-x: auto;
+  border: 1px solid #555;
+  border-collapse: collapse;
+  font-family: open-sans, open-sans-condensed, sans-serif;
+  font-size: 1rem; }
+  table tr th, table tr td {
+    padding: 5px; }
+  table tr th {
+    font-family: open-sans-condensed, sans-serif;
+    font-weight: normal; }
+  table tr td {
+    font-size: 0.9rem; }
 
 pre code {
   color: #a2a2a2; }
